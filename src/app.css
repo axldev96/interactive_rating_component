@@ -1,0 +1,235 @@
+:root {
+  /* # Front-end Style Guide */
+
+  /* ## Layout */
+
+  /* The designs were created to the following widths: */
+
+  --mobile: 375px;
+  /* - Desktop: 1440px */
+
+  /* ## Colors */
+
+  /* ### Primary */
+
+  --orange: hsl(25, 97%, 53%);
+
+  /* ### Neutral */
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --dark: #000;
+
+  --card-gradient: linear-gradient(
+    180deg,
+    rgba(31, 39, 50, 1) 0%,
+    rgba(23, 30, 40, 1) 65%
+  );
+
+  /* ## Typography */
+
+  /* ### Body Copy */
+
+  --font-size-paragraph: 15px;
+
+  /* ### Font */
+
+  /* - Family: [Overpass](https://fonts.google.com/specimen/Overpass) */
+  /* - Weights: 400, 700 */
+  --overpass-font: 'Overpass', sans-serif;
+  --regular: 400;
+  --bold: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-size: var(--font-size-paragraph);
+}
+.attribution a {
+  color: var(--orange);
+}
+
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  color: var(--white);
+  font-family: var(--overpass-font);
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-width: 25rem;
+  max-width: 40rem;
+  background-color: var(--dark-blue);
+  padding: 3.2rem;
+  border-radius: 2rem;
+  background: var(--card-gradient);
+}
+
+.star-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-blue);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+
+@media screen and (min-width: 375px) {
+  .star-icon {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: var(--bold);
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 375px) {
+  .title {
+    font-size: 2.9rem;
+  }
+}
+
+.paragraph {
+  font-size: var(--font-size-paragraph);
+  font-weight: var(--regular);
+  color: var(--light-grey);
+  margin: 1.5rem 0;
+  line-height: 1.6;
+}
+
+/* ///////////// radio inputs //////////////// */
+
+.inputs-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.radio-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-blue);
+  border-radius: 50%;
+  min-height: 4rem;
+  min-width: 4rem;
+  font-size: var(--font-size-paragraph);
+  color: var(--medium-grey);
+}
+
+.radio-input:hover {
+  background-color: var(--orange);
+  cursor: pointer;
+  color: var(--white);
+}
+
+@media screen and (min-width: 375px) {
+  .radio-input {
+    font-size: 1.6rem;
+    height: 4.6rem;
+    width: 4.6rem;
+    gap: 0;
+  }
+}
+
+.radio-input.active {
+  background-color: var(--medium-grey);
+  color: var(--white);
+}
+
+.radio-input input {
+  display: none;
+}
+
+/* /////////// Submit Button /////////////// */
+
+.submit-button {
+  width: 100%;
+  padding: 1.2rem;
+  margin-top: 3rem;
+  border-radius: 3rem;
+  border: none;
+  color: var(--white);
+  background-color: var(--orange);
+  font-weight: var(--bold);
+  font-size: 1.4rem;
+  letter-spacing: 0.3rem;
+  outline: none;
+}
+
+.submit-button:hover {
+  background-color: var(--white);
+  color: var(--orange);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 375px) {
+  .submit-button {
+    padding: 1.5rem;
+  }
+}
+
+/* /////////// Thank you State /////////////// */
+
+.thanks-card.visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thanks-figure {
+  display: block;
+  max-width: 100%;
+}
+
+.rate-paragraph {
+  background-color: var(--dark-blue);
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  font-size: var(--font-size-paragraph);
+  color: var(--orange);
+}
