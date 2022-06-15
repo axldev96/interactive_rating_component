@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub/interactive-rating-component-html-css-js-pdjpIIK_bu)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-html-css-js-pdjpIIK_bu)
 - Live Site URL: [Interactive Rating Component](https://axldev96.github.io/interactive_rating_component/)
 
 ## My process
