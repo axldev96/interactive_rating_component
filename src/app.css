@@ -127,7 +127,7 @@ body {
 
 @media screen and (min-width: 375px) {
   .title {
-    font-size: 2.9rem;
+    font-size: 2.7rem;
   }
 }
 
@@ -195,7 +195,7 @@ body {
   color: var(--white);
   background-color: var(--orange);
   font-weight: var(--bold);
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   letter-spacing: 0.3rem;
   outline: none;
 }
