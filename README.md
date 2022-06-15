@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub/interactive-rating-component-html-css-js-pdjpIIK_bu)
+- Live Site URL: [Interactive Rating Component](https://axldev96.github.io/interactive_rating_component/)
 
 ## My process
 
@@ -48,7 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-I practiced the use of pure css and the handling of form data with vanilla javascript. The point where I had the most difficulty was with the radio type inputs, managing their styles was something I hadn't done, I really learned a lot on this project despite how small it is*
+I practiced the use of pure css and the handling of form data with vanilla javascript. The point where I had the most difficulty was with the radio type inputs, managing their styles was something I hadn't done, I really learned a lot on this project despite how small it is\*
 
 ### Continued development
 
@@ -58,7 +58,6 @@ I would like to improve my ability to handle the DOM with Vanilla JavaScript and
 
 - [Mozilla MDN Web Docs | input type="radio"](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio) - This resource was very useful, it helped me understand how the radio inputs work..
 - [CSS Gradient](https://www.example.com) - Very useful and simple web app for creating gradients.
-
 
 ## Author
 
